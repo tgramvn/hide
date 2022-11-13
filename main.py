@@ -172,6 +172,7 @@ async def send_info(message: types.Message):
             await message.answer(
                 text = locales[message.from_user.language_code].info_message,
                 reply_markup = rsc.keyboards.info_keyboard(),
+                parse_mode = 'html',
                 disable_web_page_preview = True)
         if is_tracked_user:
             target = User.get_or_create(message.from_user)
