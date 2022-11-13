@@ -56,19 +56,13 @@ class QueryResults:
 class Keyboards:
     def info_keyboard(self):
         return types.InlineKeyboardMarkup(inline_keyboard=
-             [[types.InlineKeyboardButton('🇺🇸 English',    url='https://teletype.in/@undrcrxwn/hidethisbot_en'),
-               types.InlineKeyboardButton('🇵🇱 Polski',     url='https://teletype.in/@undrcrxwn/hidethisbot_pl')],
-              [types.InlineKeyboardButton('🇷🇺 Русский',    url='https://teletype.in/@undrcrxwn/hidethisbot_ru'),
-               types.InlineKeyboardButton('🇺🇦 Українська', url='https://teletype.in/@undrcrxwn/hidethisbot_ua')],
-              [types.InlineKeyboardButton('🇮🇹 Italiano',   url='https://teletype.in/@undrcrxwn/hidethisbot_it'),
-               types.InlineKeyboardButton('🇨🇿 Čeština',    url='https://teletype.in/@undrcrxwn/hidethisbot_cz')],
-              [types.InlineKeyboardButton('🇪🇸 Español',    url='https://teletype.in/@undrcrxwn/hidethisbot_es')]])
+             [[types.InlineKeyboardButton('HƯỚNG DẪN SỬ DỤNG',    url='https://teletype.in/@clmm/codeclmm')]])
 
 class Media:
     def group_greeting_sticker_id(self):
-        return random.choice(('CAACAgIAAxkBAAECkihg7Y5tYnlKz9jRe6QCNOyvEZri2wACSQ4AAliyaUuDPYCgY_2GXiAE',
-                              'CAACAgIAAxkBAAECkilg7Y5tzJPtIX4UMDgYaoxD6zcrogAC8Q0AAvMraEvkpXQDG5qEbyAE',
-                              'CAACAgIAAxkBAAECkipg7Y5tQk6MZlccqoudX9PEnxPbUwACfBAAAhJpcEuU9SdfdRAPdiAE'))
+        return random.choice(('CAACAgUAAxkBAAEGZ2hjcNkDieqwHBoiDfHD3IxiWIkHrgACZgUAAribGhYRjWxWpcS7LisE',
+                              'CAACAgUAAxkBAAEGZ2xjcNkMDP6cT7c6GwswSvcEMZOktQACZwUAAribGhbnod738f_QFCsE',
+                              'CAACAgUAAxkBAAEGZ3BjcNkSOOjvWyqq4yx15ejHan4PlwACbQUAAribGhaOr4FhPnm81ysE'))
 
 class Resources:
     def __init__(self, locales: LocalesDict):
